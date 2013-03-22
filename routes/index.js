@@ -1,6 +1,6 @@
 var os = require('os')
   , mongo = require('mongoskin')
-  , client = mongo.db('http://33.33.13.37:27017/test', {w: 1})
+  , client = mongo.db('http://192.168.33.10:27017/test', {w: 1})
   , tags = client.collection('tags');
 /*
  * GET home page.
